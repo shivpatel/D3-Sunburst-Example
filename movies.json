@@ -1,0 +1,129 @@
+{
+ "name": "Movies",
+ "children": [
+  {
+   "name": "Adventure",
+   "children": [
+    {
+     "name": "Gore Verbinski",
+     "children": [
+      {"name": "Pirates of the Caribbean: At World's End", "size": 660996492},
+      {"name": "Pirates of the Caribbean: Dead Man's Chest", "size": 835615812}
+     ]
+    },
+    {
+     "name": "Marc Forster",
+     "children": [
+      {"name": "Quantum of Solace", "size": 361692078}
+     ]
+    },
+    {
+     "name": "Rob Marshall",
+     "children": [
+      {"name": "Pirates of the Caribbean: On Stranger Tides", "size": 793663875}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Animation",
+   "children": [
+    {
+     "name": "Nathan Greno",
+     "children": [
+      {"name": "Tangled", "size": 326581936}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Fantasy",
+   "children": [
+    {
+     "name": "Andrew Adamson",
+     "children": [
+      {"name": "The Chronicles of Narnia: Prince Caspian", "size": 7778100}
+     ]
+    },
+    {
+     "name": "Andrew Stanton",
+     "children": [
+      {"name": "John Carter", "size": 685083686}
+     ]
+    },
+    {
+     "name": "David Yates",
+     "children": [
+      {"name": "Harry Potter and the Half-Blood Prince", "size": 685083686}
+     ]
+    },
+    {
+     "name": "Peter Jackson",
+     "children": [
+      {"name": "The Hobbit: The Battle of the Five Armies", "size": 481782487},
+      {"name": "The Hobbit: The Desolation of Smaug", "size": 700466855},
+      {"name": "The Hobbit: An Unexpected Journey", "size": 764703568}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Science Fiction",
+   "children": [
+    {
+     "name": "Barry Sonnenfeld",
+     "children": [
+      {"name": "Men in Black 3", "size": 439213485}
+     ]
+    },
+    {
+     "name": "James Cameron",
+     "children": [
+      {"name": "Avatar", "size": 2358918982}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Superheroes",
+   "children": [
+    {
+     "name": "Bryan Singer",
+     "children": [
+      {"name": "Superman Returns", "size": 142085065}
+     ]
+    },
+    {
+     "name": "Christopher Nolan",
+     "children": [
+      {"name": "The Dark Knight Rises", "size": 804343943}
+     ]
+    },
+    {
+     "name": "Joss Whedon",
+     "children": [
+      {"name": "The Avengers", "size": 1289279547}
+     ]
+    },
+    {
+     "name": "Marc Webb",
+     "children": [
+      {"name": "The Amazing Spider-Man", "size": 537890267}
+     ]
+    },
+    {
+     "name": "Sam Raimi",
+     "children": [
+      {"name": "Spider-Man 3", "size": 632875303}
+     ]
+    },
+    {
+     "name": "Zack Snyder",
+     "children": [
+      {"name": "Man of Steel", "size": 442999518}
+     ]
+    }
+   ]
+  }
+ ]
+}
