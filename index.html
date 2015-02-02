@@ -2,6 +2,8 @@
 <head>
   <title>Highest Profiting Movies by Genre & Director</title>
   <meta charset="utf-8">
+  <script src="./jquery-1.10.2.js"></script>
+  <script src="./d3.v3.min.js"></script>
 </head>
 <style>
 
@@ -19,11 +21,22 @@ h1 {
   font-weight: 300;
 }
 
+h2 {
+  font-weight: 300;
+  padding: 0;
+  margin: 50px 0px 0px 0px;
+  font-size: 14px;
+}
+
+#viewing {
+  font-size: 22px;
+}
+
 #title {
   float: left;
   width: 25%;
   text-align: right;
-  margin-top: 125px;
+  margin-top: 100px;
 }
 
 #visual {
@@ -33,16 +46,36 @@ h1 {
   margin: 0px auto 0px;
 }
 
+.info {
+  display: none;
+  z-index: 10000;
+  width: 75%;
+}
+
+table {
+  float: right;
+  font-size: 12px;
+  width: 50%;
+  margin-top: 15px;
+}
+
 </style>
 <body>
 
   <div id="title">
     <h1>Highest Profiting Movies by Genre & Director</h1>
     <p>2007 - 2013</p>
+    <h2>Mouse Hover Item:<br><span id="viewing"></span></h2>
+    <h2><strong>Sunburst Ring Key</strong></h2>
+    <table>
+      <tr><td>Inner Circle</td><td>N/A</td></tr>
+      <tr><td>Inner Ring</td><td>Genres</td></tr>
+      <tr><td>Middle Ring</td><td>Directors</td></tr>
+      <tr><td>Outer Ring</td><td>Movies</td></tr>
+    </table>
   </div>
   <div id="visual"></div>
 
-<script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 
 var width = 500,
@@ -73,6 +106,7 @@ var arc = d3.svg.arc()
     .outerRadius(function(d) { return Math.max(0, y(d.y + d.dy)); });
 
 d3.json("movies.json", function(error, root) {
+
   var g = svg.selectAll("g")
       .data(partition.nodes(root))
     .enter().append("g");
@@ -87,6 +121,8 @@ d3.json("movies.json", function(error, root) {
     .attr("x", function(d) { return y(d.y); })
     .attr("dx", "0") // margin
     .attr("dy", ".15em") // vertical-align
+    .attr("class", "info")
+    .attr("id", "info")
     .text(function(d) { return d.name; });
 
   function click(d) {
@@ -109,6 +145,16 @@ d3.json("movies.json", function(error, root) {
           }
       });
   }
+
+  $( "path" ).hover(
+  function() {
+    // $(this).next().fadeIn();
+    $("#viewing").text($(this).next().text()).show();
+  }, function() {
+    $("#viewing").hide();
+  }
+);
+
 });
 
 d3.select(self.frameElement).style("height", height + "px");
@@ -130,3 +176,10 @@ function computeTextRotation(d) {
 }
 
 </script>
+
+</div>
+
+<h2 style="text-align:center;float:left;margin-top:50px;width:100%;">By Shiv Patel and Anthony Tsou.</h2>
+
+</body>
+</html>
