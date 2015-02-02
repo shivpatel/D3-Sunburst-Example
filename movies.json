@@ -42,13 +42,13 @@
     {
      "name": "Andrew Adamson",
      "children": [
-      {"name": "The Chronicles of Narnia: Prince Caspian", "size": 7778100, "profit": "$192,341,288"}
+      {"name": "The Chronicles of Narnia: Prince Caspian", "size": 192341288, "profit": "$192,341,288"}
      ]
     },
     {
      "name": "Andrew Stanton",
      "children": [
-      {"name": "John Carter", "size": 685083686, "profit": "$7,778,100"}
+      {"name": "John Carter", "size": 7778100, "profit": "$7,778,100"}
      ]
     },
     {
