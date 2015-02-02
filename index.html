@@ -52,6 +52,11 @@ h2 {
   width: 75%;
 }
 
+.profit {
+  font-weight: 700;
+  font-size: 16px;
+}
+
 table {
   float: right;
   font-size: 12px;
@@ -123,7 +128,7 @@ d3.json("movies.json", function(error, root) {
     .attr("dy", ".15em") // vertical-align
     .attr("class", "info")
     .attr("id", "info")
-    .text(function(d) { return d.name; });
+    .html(function(d) { return d.name + "&lt;br /&gt; &lt;span class=&quot;profit&quot;&gt;" + (d.profit || '') + "&lt;/span&gt;"; });
 
   function click(d) {
     // fade out all text elements
@@ -149,7 +154,7 @@ d3.json("movies.json", function(error, root) {
   $( "path" ).hover(
   function() {
     // $(this).next().fadeIn();
-    $("#viewing").text($(this).next().text()).show();
+    $("#viewing").html($(this).next().text()).show();
   }, function() {
     $("#viewing").hide();
   }

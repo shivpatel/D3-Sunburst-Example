@@ -7,20 +7,20 @@
     {
      "name": "Gore Verbinski",
      "children": [
-      {"name": "Pirates of the Caribbean: At World's End", "size": 660996492},
-      {"name": "Pirates of the Caribbean: Dead Man's Chest", "size": 835615812}
+      {"name": "Pirates of the Caribbean: At World's End", "size": 660996492, "profit": "$660,996,492"},
+      {"name": "Pirates of the Caribbean: Dead Man's Chest", "size": 835615812, "profit": "$835,615,812"}
      ]
     },
     {
      "name": "Marc Forster",
      "children": [
-      {"name": "Quantum of Solace", "size": 361692078}
+      {"name": "Quantum of Solace", "size": 361692078, "profit": "$361,692,078"}
      ]
     },
     {
      "name": "Rob Marshall",
      "children": [
-      {"name": "Pirates of the Caribbean: On Stranger Tides", "size": 793663875}
+      {"name": "Pirates of the Caribbean: On Stranger Tides", "size": 793663875, "profit": "$793,663,875"}
      ]
     }
    ]
@@ -31,7 +31,7 @@
     {
      "name": "Nathan Greno",
      "children": [
-      {"name": "Tangled", "size": 326581936}
+      {"name": "Tangled", "size": 326581936, "profit": "$326,581,936"}
      ]
     }
    ]
@@ -42,27 +42,27 @@
     {
      "name": "Andrew Adamson",
      "children": [
-      {"name": "The Chronicles of Narnia: Prince Caspian", "size": 7778100}
+      {"name": "The Chronicles of Narnia: Prince Caspian", "size": 7778100, "profit": "$192,341,288"}
      ]
     },
     {
      "name": "Andrew Stanton",
      "children": [
-      {"name": "John Carter", "size": 685083686}
+      {"name": "John Carter", "size": 685083686, "profit": "$7,778,100"}
      ]
     },
     {
      "name": "David Yates",
      "children": [
-      {"name": "Harry Potter and the Half-Blood Prince", "size": 685083686}
+      {"name": "Harry Potter and the Half-Blood Prince", "size": 685083686, "profit": "$685,083,686"}
      ]
     },
     {
      "name": "Peter Jackson",
      "children": [
-      {"name": "The Hobbit: The Battle of the Five Armies", "size": 481782487},
-      {"name": "The Hobbit: The Desolation of Smaug", "size": 700466855},
-      {"name": "The Hobbit: An Unexpected Journey", "size": 764703568}
+      {"name": "The Hobbit: The Battle of the Five Armies", "size": 481782487, "profit": "$481,782,487"},
+      {"name": "The Hobbit: The Desolation of Smaug", "size": 700466855, "profit": "$700,466,855"},
+      {"name": "The Hobbit: An Unexpected Journey", "size": 764703568, "profit": "$764,703,568"}
      ]
     }
    ]
@@ -73,13 +73,13 @@
     {
      "name": "Barry Sonnenfeld",
      "children": [
-      {"name": "Men in Black 3", "size": 439213485}
+      {"name": "Men in Black 3", "size": 439213485, "profit": "$439,213,485"}
      ]
     },
     {
      "name": "James Cameron",
      "children": [
-      {"name": "Avatar", "size": 2358918982}
+      {"name": "Avatar", "size": 2358918982, "profit": "$2,358,918,982"}
      ]
     }
    ]
@@ -90,37 +90,37 @@
     {
      "name": "Bryan Singer",
      "children": [
-      {"name": "Superman Returns", "size": 142085065}
+      {"name": "Superman Returns", "size": 142085065, "profit": "$142,085,065"}
      ]
     },
     {
      "name": "Christopher Nolan",
      "children": [
-      {"name": "The Dark Knight Rises", "size": 804343943}
+      {"name": "The Dark Knight Rises", "size": 804343943, "profit": "$804,343,943"}
      ]
     },
     {
      "name": "Joss Whedon",
      "children": [
-      {"name": "The Avengers", "size": 1289279547}
+      {"name": "The Avengers", "size": 1289279547, "profit": "$1,289,279,547"}
      ]
     },
     {
      "name": "Marc Webb",
      "children": [
-      {"name": "The Amazing Spider-Man", "size": 537890267}
+      {"name": "The Amazing Spider-Man", "size": 537890267, "profit": "$537,890,267"}
      ]
     },
     {
      "name": "Sam Raimi",
      "children": [
-      {"name": "Spider-Man 3", "size": 632875303}
+      {"name": "Spider-Man 3", "size": 632875303, "profit": "$632,875,303"}
      ]
     },
     {
      "name": "Zack Snyder",
      "children": [
-      {"name": "Man of Steel", "size": 442999518}
+      {"name": "Man of Steel", "size": 442999518, "profit": "$442,999,518"}
      ]
     }
    ]
